@@ -13,6 +13,9 @@ def getInts(inputNumbers) {
     try {
         outputNumbers = JOptionPane.showInputDialog(null,
                 "Podaj szereg liczb całkowitych", inputNumbers)
+        if (outputNumbers == null) {
+            return
+        }
         outputNumbers.split('\\s+')
                 .each { Integer.valueOf(it) }
     } catch (RuntimeException ignored) {
