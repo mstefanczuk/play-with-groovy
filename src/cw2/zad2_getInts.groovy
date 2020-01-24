@@ -13,8 +13,8 @@ def getInts(inputNumbers) {
     try {
         outputNumbers = JOptionPane.showInputDialog(null,
                 "Podaj szereg liczb całkowitych", inputNumbers)
-        outputNumbers.split(' ')
-                .each { Integer.valueOf(it.replaceAll(' ', '')) }
+        outputNumbers.split('\\s+')
+                .each { Integer.valueOf(it) }
     } catch (RuntimeException ignored) {
         return getInts(outputNumbers)
     }
