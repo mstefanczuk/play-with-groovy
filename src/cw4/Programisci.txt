@@ -1,0 +1,7 @@
+Stefanowski Stefan	Groovy
+Janowski Janusz	Groovy	Java	C++
+Julianska Julia	Java
+Kazikowski Kazimierz	Java	C++
+Zygmuntowski Zygmunt	Java	C++
+Mirkowski Mirek	C++
+Ludowski Ludwik	C++	Python

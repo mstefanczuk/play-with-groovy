@@ -1,0 +1,4 @@
+Groovy	Stefanowski Stefan	Janowski Janusz
+Java	Julianska Julia	Kazikowski Kazimierz	Zygmuntowski Zygmunt	Janowski Janusz
+C++	Kazikowski Kazimierz	Zygmuntowski Zygmunt	Janowski Janusz	Mirkowski Mirek	Ludowski Ludwik
+Python	Ludowski Ludwik
